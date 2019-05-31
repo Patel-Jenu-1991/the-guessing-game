@@ -35,7 +35,7 @@ function game_loop {
         echo
         # print a decorative thank you message
         decorative_text 'Thank You for Playing!'
-        exit 0
+        break
       fi
     else
       # Notify the user about bad input
